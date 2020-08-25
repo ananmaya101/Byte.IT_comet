@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="booking.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <img class="logo" src="assets/Group 86-1.png">
+        <a href="index.html"><img class="home-icon" src="assets/Path 5.png"></a>
+    </div>
+
+
+    <div class="container-booking">
+        <fieldset>
+            <input type="radio" name="one-way" id="one-way" value="one-way" checked><label for="one-way">One-way</label>
+            <input type="radio" name="return" id="return" value="return"><label for="return">Return</label>
+        </fieldset>         
+        <div class="form-bk">
+            <div class="form 1">
+                <h4>From</h4>
+                <input type="text" placeholder="Choose city">
+                <div class="line"></div>              
+            </div>
+            <div class="form 2">                
+                <h4>To</h4>
+                <input type="text" placeholder="Choose city">   
+            </div>
+            <div class="form 3">
+                <h4>Date</h4>
+                <input type="date" name="date" id="date" min="2000-01-01" max="2020-12-31"> 
+            </div>
+            <div class="form 4">
+                <h4>Passengers</h4>
+                <input type="tel" name="phone" id="phone" placeholder="No. of passengers">
+            </div>
+        </div>  
+        <p><a href="#">Book</a></p>
+    </div>  
+</body>
+</html>
